@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*------Entete-------*/
+.entete{
+    display: flex;
+    height: 80px;
+    background-color: rgb(0, 162, 255);
+    box-sizing: border-box;
+}
+
+.logowoox{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    margin: 0 50px;
+    letter-spacing: 3px;
+}
+.entete ul{
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+}
+.entete ul li{
+    display: inline-block;
+    padding: 20px 10px;
+    margin-right: 50px;
+}
+.entete ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.barre{
+    position: absolute;
+    top: 10px;
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    color: white;
+}
+/*-----------SECTION 1------*/
+.ilecaraibe{
+    background-image: url(Images/Parks_Bridges_Night_451820.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+.carribean{
+    padding-top: 150px;
+    text-align: center;
+}
+.pays{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(0, 162, 255);
+    background-color: white;
+    border-radius: 50px;
+    width: 860px;
+    padding: 10px 0;
+}
+.titrecaribbean{
+    font-size: 50px;
+    font-weight: 900;
+}
+.nature{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.gothere{
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 50px;
+    padding: 0 20px;
+}
+.gothere a{
+    font-size: 20px;
+    color: rgb(0, 162, 255);
+}
+
+
+.territoire{
+    display: flex;
+    line-height: 5px;
+    margin: 0 20px;
+}
+.habitant{
+    padding-left: 12px;
+    margin-top: 8px;
+}
+.icon{
+    font-size: 25px;
+    color: rgb(0, 162, 255);
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+.type{
+    color: gray;
+}
+.chiffre{
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+.button{
+    border: 1px solid rgb(0, 162, 255);
+    border-radius: 50px;
+    background-color: rgb(0, 162, 255);
+    margin-left: 150px;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    height: 40px;
+    width: 110px;
+}
+.button a{ 
+    color: white;
+}
+.niveau{
+    display: flex;
+    justify-content: center;
+}
+.couleur{
+    text-align: center;
+    border-top: 2px solid white;
+    display: inline-block;
+    width: 150px;
+    margin: 0 20px;
+}
+.color{
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    text-align: center;
+}
+.white{
+    width: 70px;
+    height: 2px;
+    background-color: rgb(0, 162, 255);
+}
+.numero{
+    text-align: center;
+    font-size: 20px;
+}
+/*------SECTION 2 ------*/
+.visite{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.amerique{
+    display: flex;
+}
+.suisse-caraibe{
+    display: inline-block;
+}
+.country{
+    display: flex;
+}
+.suisse{
+    display: flex;
+    position: relative;
+}
+.suisse img{
+    margin-top: 50px;
+    width: 250px;
+    height: 280px;
+    border-radius: 30px;
+}
+.paysvisite{
+    font-size: 23px;
+    font-weight: 800;
+}
+.europe{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.explore{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+}
+.paris{
+    position: absolute;
+    right: 0;
+    left: 545px;
+}
+.colore-bleu{
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+.demographie{
+    display: flex;
+    margin-top: 70px;
+}
+.people{
+    display: flex;
+    color: gray;
+    margin-right: 50px;
+}
+.sign{
+    font-size: 20px;
+}
+.nombre{
+    margin-left: 10px;
+}
+.direction{
+    display: flex;
+    color: rgb(0, 162, 255);
+    cursor: pointer;
+}
+.direction p{
+    font-size: 16px;
+    font-weight: 550;
+}
+.fleche{
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 5px;
+    color: rgb(0, 162, 255); 
+    cursor: pointer;
+}
+.localisation{
+    margin-top: 50px;
+    margin-left: 100px; 
+}
+.localisation img{
+    width: 250px;
+    height: 620px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+/*-----------PAGE----------------*/
+.page{
+    margin-left: 300px;
+}
+.nombre-page{
+    display: inline-block;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 50px;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+.nombre-page span{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: rgb(0, 162, 255);
+}
+
+/*-----------------FOOTER---------------*/
+.pied{
+    background-image: linear-gradient(to right, rgba(0, 162, 255, .8), rgba(0, 162, 255, .7)), url('Images/Route\ foret.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.travel-button{
+    display: flex;
+}
+.pied-texte{
+    margin-left: 50px;
+}
+.pied-texte h2{
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+}
+.pied-texte p{
+    font-size: 17px;
+    font-weight:bold;
+    color: white;
+
+}
+.button-book a{
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    right: 0;
+    border-radius: 50px;
+    padding: 7px 15px;
+    text-align: center;
+    margin-right: 100px;
+}
+.copyright{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    background-color: rgb(0, 162, 255);
+    padding: 15px 0;
+}
+.copyright-fin p{
+    color: white;
+    line-height: 10px;
+    margin-top: 10px;
+}
